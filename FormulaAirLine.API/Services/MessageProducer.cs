@@ -8,7 +8,7 @@ public class MessageProducer : IMessageProducer
 {
     private const string HOST_NAME = "localhost";
     private const string USER_NAME = "user";
-    private const string PASSWORD = "mypass";
+    private const string PASSWORD = "password";
     private const string VIRTUAL_HOST = "/";
 
     public void SendingMessage<T>(T message)
